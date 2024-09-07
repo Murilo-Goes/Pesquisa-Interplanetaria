@@ -8,14 +8,18 @@ function pesquisar(){
         section.innerHTML = "<p> Planeta não encontrado! Deve estar em outra dimensão!</p>" 
         return
     }
+    campoPesquisa = campoPesquisa.toLowerCase();
   
     
     let resultados = ""
-    // Variável para acumular o HTML gerado
-    let htmlContent = '';
+    let nome = ""
+    let descricao = ""    // Variável para acumular o HTML gerado
+   
     
     for(let dado of dados) {
-        if(dado.nome.includes(campoPesquisa)||dado.nome.includes(campoPesquisa)) {
+        titulo = dado.nome.toLowerCase()
+        descricao = dado.descricao.toLowerCase()
+        if(nome.includes(campoPesquisa)||descricao.includes(campoPesquisa)) {
         resultados += `
         <div class="item-resultado">
             <h2>
@@ -27,6 +31,11 @@ function pesquisar(){
     
         }
     // Após o loop, adicionar o conteúdo HTML ao 'section'
+    }
+    if(!resultados) {
+        resultados = "<p>Resultado não encontrado! Parece que está escrito em linguagem alienígena.</p>"
+    
+
     }
 
 

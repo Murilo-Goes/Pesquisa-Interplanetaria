@@ -6,7 +6,7 @@ let dados = [
     },
     {
         nome: "Vênus",
-        descricao: "Vênus é o segundo planeta do Sistema Solar e é conhecido por suas altas temperaturas e atmosfera densa. Frequentemente chamado de 'irmão' da Terra por seu tamanho e composição semelhantes.",
+        descricao: "Vênus é o segundo planeta do Sistema Solar e é conhecido por suas altas temperaturas e atmosfera densa. Frequentemente chamado de 'irmão' do nosso lar por seu tamanho e composição semelhantes.",
         link: "https://pt.wikipedia.org/wiki/V%C3%AAnus_(planeta)"
     },
     {
