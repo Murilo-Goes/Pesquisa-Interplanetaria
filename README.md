@@ -29,3 +29,7 @@ Como Usar
 	1.	Abra o site e insira o nome de um planeta no campo de pesquisa.
 	2.	Clique no botão “Aponte seu satélite” para iniciar a busca.
 	3.	Os resultados da pesquisa serão exibidos na seção dedicada.
+
+
+Divirta-se navegando pelos planetas, e se encontrar algum erro ou tiver sugestões, estou aberto a feedbacks! 🚀✨
+https://pesquisa-interplanetaria.vercel.app
